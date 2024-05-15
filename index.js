@@ -13,7 +13,7 @@ class Svg {
         return `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">${this.shapeElement}${this.textElement}</svg>`
     }
     setTextElement(text,color){
-        this.textElement = `<text x="150" y="175" font-size="90" text-anchor="middle" fill=${color}>${text}</text>`
+        this.textElement = `<text x="155" y="130" font-size="65" text-anchor="middle" fill=${color}>${text}</text>`
     }
     setShapeElement(shape,color){
         shape.setColor(color)
@@ -72,10 +72,6 @@ function generateSvg(data){
         case 'Square':
             shape = new Square();
             break;
-        // default:
-        //     // Handle unexpected shape
-        //     console.log("Unexpected shape selection");
-            return;
     }
     svg.setShapeElement(shape, data.shapecolor);
 
