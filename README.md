@@ -40,7 +40,7 @@ At your discretion, you may rename the "logo.svg" file to the file name of your 
 
 Walkthrough video link: https://drive.google.com/file/d/1u-CopDKLHwmv4weEDXA0nZC2vXIR36PT/view?usp=sharing
 
-    ![SVGlogo](lib/images/SVGlogo.png)
+![SVGlogo](lib/images/SVGlogo.png)
 
 ## Tests
 
